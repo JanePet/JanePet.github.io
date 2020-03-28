@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #fff;
+	font-family: 'Prompt', sans-serif;
+	font-size: 14px;
+}
+
+#header {
+	background: #000;
+	height: 600px
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	
+
+}
+
+.logo {
+	width: 120px
+}
+
+.call {
+	font-size: 13px;
+	margin-left: 410px
+}
+
+.call__text {
+	color: #969696;
+
+}
+
+.phone {
+	margin-left: 5px;
+}
+
+.menu {
+	display: block;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	width: 34px;
+	margin-left: auto;
+}
+
+.menu span {
+	display: block;
+	background-color: white;
+	margin-bottom: 4px;
+	width: 34px;
+	height: 2px;
+}
+
+.menu span:nth-child(2) {
+	width: 29px;
+	
+}
+
+.menu span:nth-child(3) {
+	width: 20px;
+	
+}
+
+.header__content {
+	display: flex;
+	justify-content: space-between;
+	margin: auto
+}
+
+.offer {
+margin-top: 80px;
+}
+
+.merits{
+font-style: italic;
+margin-bottom: 30px
+
+}
+
+.merits span {
+	margin-right: 23px;
+}
+
+.help_text {
+	font-family: 'Teko', sans-serif;
+	font-size: 20px
+}
+
+h1 {
+	font-style: italic;;
+	font-size: 30px;
+	margin-bottom: 10px
+
+}
+
+.intro_text {
+	font-size: 15px;
+	width: 350px;
+	margin-bottom: 60px
+}
+
+.order {
+	color: #FF3A3A;
+	border: 1px solid #FF3A3A;
+	border-radius: 100px;
+	text-decoration: none;
+	padding: 12px 40px;
+	transition: .3s;
+	margin-bottom: 100px
+}
+
+.order:hover {
+	color: #fff;
+	border: 1px solid #FF3A3A;
+	background-color: #FF3A3A
+}
+
+.pic {
+	width: 600px;
+	display: block;
+	margin-top: 60px
+}
+
+.img {
+
+	align-items: center;
+}
