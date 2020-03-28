@@ -1,0 +1,171 @@
+
+@font-face {
+	font-family: 'Circe';
+	src: url('Circe-Regular.eot');
+	src: local('Circe'), local('Circe-Regular'),
+		url('../fonts/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-Regular.woff') format('woff'),
+		url('../fonts/Circe-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'ptserifitalic_allfont_ru';
+    src: url('../fonts/ptserifitalic_allfont_ru.eot');
+    src: url('../fonts/ptserifitalic_allfont_ru.eot') format('embedded-opentype'),
+         url('../fonts/ptserifitalic_allfont_ru.woff2') format('woff2'),
+         url('../fonts/ptserifitalic_allfont_ru.woff') format('woff'),
+         url('../fonts/ptserifitalic_allfont_ru.ttf') format('truetype'),
+         url('../fonts/ptserifitalic_allfont_ru.svg#ptserifitalic_allfont_ru') format('svg');
+}
+
+
+.main__container {
+	margin: 0px auto;
+	position: relative;
+	
+}
+
+.title {
+	position: relative;
+	margin: 40px 0px 80px 110px;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 100;
+	font-family: 'Circe';
+	
+	letter-spacing: 0px;
+	line-height: 50px;
+	color: #1e2831;
+}
+
+span {
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Circe';
+	color: #1e2831;
+}
+
+.menu {
+	padding-left: 20px;
+}
+
+.afisha {
+	font-family: 'ptserifitalic_allfont_ru';
+	font-size: 12px;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+	right: 115px;
+	top: 50px;
+	position: absolute;
+	padding: 13px 15px 15px 27px;
+    box-sizing: border-box;
+	text-decoration: none;
+	color: #1e2831;
+
+
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.inner{
+	width:calc(100% / 3 - 10px);
+	background-color: #f7f8fa; 
+	padding-bottom: 20px;
+}
+
+.two {
+	margin: 0px 10px;
+}
+
+.img {
+	width: 100%;
+	height: 172px;
+}
+
+h2 {
+	font-family: 'Circe';
+	font-weight: 700;
+	font-size: 22px;
+	color: #1e2831;
+	line-height: 20px;
+	margin-left: 20px;
+
+}
+
+p {
+	font-family: 'ptserifitalic_allfont_ru';
+	
+}
+
+.up {
+	font-size: 10px;
+	color: #1e2831;
+	line-height: 20px;
+	margin-left: 20px;
+}
+
+.down {
+	font-size: 10px;
+	color: #b3b4b6;
+	line-height: 18px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+
+.button1 {
+	background-color: #e6ebef;
+	border: 1px solid #e6ebef;
+	width: 85%;
+	height: 40px;
+	color: #a2a7ab;
+	text-transform: uppercase;
+	padding-top: 7px;
+	margin: 0px 20px;
+	font-family: 'Circe';
+	font-weight: 700;
+	font-size: 10px;
+}
+
+.button__orange {
+	background-color: #ffc964;
+	border: 1px solid #ffc964;
+	outline: none;
+	font-family: 'Circe';
+	
+	width: 85%;
+	height: 40px;
+	margin: 0px 20px;
+
+
+}
+
+.price {
+	border-right: 1px solid black;
+	display: inline-block;
+	text-align: center;
+	height: 100%;
+	width: 80px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	font-size: 12px;
+	padding-right: 18px
+
+}
+
+.zayavka {
+	display: inline-block;
+	text-align: center;
+	font-size: 10px;
+	padding-left: 10px
+
+}
